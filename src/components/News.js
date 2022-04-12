@@ -58,7 +58,7 @@ const News = (props) => {
           textShadow: "3px 3px 5px #622828",
         }}
       >
-        NewsPost-Top Headlines{" "}
+        PocketNews-Top Headlines{" "}
         {props.category[0].toUpperCase() + props.category.slice(1)}
       </h1>
 
