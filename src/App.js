@@ -3,7 +3,7 @@ import React, {  useState } from 'react';
 import Navbar from './components/Navbar';
 import LoadingBar from 'react-top-loading-bar';
 import News from './components/News';
-import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import {HashRouter as Router,Routes,Route} from "react-router-dom";
 const App=()=> {
    const api="f6b57ac08e0b472cafda3a84f4c4a122";
    console.log(api)
