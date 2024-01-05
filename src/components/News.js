@@ -28,17 +28,15 @@ const News = (props) => {
   useEffect(() => {
     updateNews(props);
     document.title = `${props.category}-NewsPost`;
-    console.log("sdhsah");
-  }, []);
+  },[]);
 
-  const increment = async () => {
+  const increment = () => {
     setPage(prevPage => prevPage+1)
 
   };
 
   const fetchMoreData = async () => {
    await increment();
-    console.log(page);
     let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.api}&page=${page+1}&pageSize=${props.pageSize}`;
     setLoading(true);
     let data = await fetch(url);

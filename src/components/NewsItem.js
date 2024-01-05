@@ -11,7 +11,7 @@ const NewsItem = (props) => {
                     boxShadow: " 2px 4px rgb(248 76 76)",
                 }}
             >
-                <img src={imageUrl} className="card-img-top" alt="..." />
+                <img src={imageUrl} className="card-img-top" alt="news_image" />
                 <div className="card-body">
                     <span
                         className="position-absolute top-0 translate-middle badge rounded-pill bg-danger"

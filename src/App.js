@@ -5,7 +5,7 @@ import LoadingBar from 'react-top-loading-bar';
 import News from './components/News';
 import {HashRouter as Router,Routes,Route} from "react-router-dom";
 const App=()=> {
-   const api="f6b57ac08e0b472cafda3a84f4c4a122";
+   const api="ffc648aa76aa4e96a0cc17037adb155e";
    console.log(api)
   
   const [progress, setProgress] = useState(0);
